@@ -6,5 +6,10 @@ namespace Demo
         {
             InitializeComponent();
         }
+
+        public int tonghaiso(int a, int b)
+        {
+            return a + b;
+        }
     }
 }
