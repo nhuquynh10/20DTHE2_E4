@@ -9,7 +9,11 @@ namespace Demo
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-
+            if (txtUserName.Text == "Admin" && txtPassword.Text == "Admin") {
+                MessageBox.Show("Thành công");
+            }
         }
+
+
     }
 }
