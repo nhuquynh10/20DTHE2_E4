@@ -7,13 +7,20 @@ namespace Demo
             InitializeComponent();
         }
 
+
         private void btnLogin_Click(object sender, EventArgs e)
         {
             if (txtUserName.Text == "Admin" && txtPassword.Text == "Admin") {
-                MessageBox.Show("Thành công");
+                MessageBox.Show("Thï¿½nh cï¿½ng");
             }
         }
 
+
+
+        public int tonghaiso(int a, int b)
+        {
+            return a + b;
+        }
 
     }
 }
