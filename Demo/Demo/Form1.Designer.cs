@@ -66,8 +66,10 @@
             lbPassword.Size = new Size(70, 20);
             lbPassword.TabIndex = 2;
             lbPassword.Text = "Password";
-
-            btnLogin.Location = new Point(237, 120);
+            // 
+            // btnLogin
+            // 
+            btnLogin.Location = new Point(264, 209);
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(166, 29);
             btnLogin.TabIndex = 2;
